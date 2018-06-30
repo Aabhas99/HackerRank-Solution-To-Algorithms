@@ -1,21 +1,15 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.math.*;
 
 public class Solution {
 
-
-
-    private static final Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) {
-        String n = scanner.nextLine();
-        BigInteger c=new BigInteger(n);
-        System.out.println(c.isProbablePrime(1) ? "prime" :"not prime");
-        scanner.close();
+        Scanner sc=new Scanner (System.in);
+        BigInteger a=new BigInteger(sc.next());
+        BigInteger b=new BigInteger(sc.next());
+        System.out.println(a.add(b));
+        System.out.println(a.multiply(b));
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
     }
 }
